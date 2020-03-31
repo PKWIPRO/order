@@ -4,7 +4,7 @@ files:
   - source: /target/embedded-0.0.1-SNAPSHOT
     destination: /var/www/html/dist
  # - source: /scripts/configure_http_port.xsl
- #   destination: //tmp/codedeploy-deployment-staging-area/
+ #   destination: //tmp/codedeploy-deployment-staging-areaa/
 #hooks:
 #  ApplicationStop:
  #   - location: scripts/stop_applicationn
