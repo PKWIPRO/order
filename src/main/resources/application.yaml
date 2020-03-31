@@ -8,7 +8,7 @@ spring:
      # path: /h2-console
   ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
-    url: jdbc:mysql://localhost:3306/iot_pcf?useSSL=false
+    url: jdbc:mysql://localhost:3306/root?useSSL=false
     username: iotpcf
     password: iotpcf
   jpa:
