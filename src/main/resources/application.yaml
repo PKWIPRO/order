@@ -9,8 +9,7 @@ spring:
   ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
     url: jdbc:mysql://localhost:3306/root?useSSL=false
-    username: iotpcf
-    password: iotpcf
+    username: root
   jpa:
     properties:
       hibernate:
