@@ -8,8 +8,9 @@ spring:
      # path: /h2-console
   ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
-    url: jdbc:mysql://localhost:3306/root?useSSL=false
+    url: jdbc:mysql://localhost:3306/iotpcf?useSSL=false
     username: root
+    
   jpa:
     properties:
       hibernate:
