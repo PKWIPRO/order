@@ -10,7 +10,7 @@ hooks:
  #   - location: scripts/stop_applicationn
   #    timeout: 300
   BeforeInstall:
-    - location: scripts/cleanup.sh
+    - location: script/cleanup.sh
   #    timeout: 300
   #ApplicationStart:
    # - location: scripts/write_codedeploy_config.sh
