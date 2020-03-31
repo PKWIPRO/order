@@ -12,8 +12,8 @@ hooks:
   BeforeInstall:
     - location: script/cleanup.sh
   #    timeout: 300
-  #ApplicationStart:
-   # - location: scripts/write_codedeploy_config.sh
+  ApplicationStart:
+    - location: script/startmicro.sh
   #  - location: scripts/start_application
   #    timeout: 300
  # ValidateService:
