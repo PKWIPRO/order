@@ -4,7 +4,7 @@ files:
   - source: /target/embedded-0.0.1-SNAPSHOT.jar
     destination: /home/ec2-user/appservice
  # - source: /scripts/configure_http_port.xsl  embedded-0.0.1-SNAPSHOT.jar
- #   destination: //tmp/codedeploy-deployment-staging-areaa/
+ #   destination: //tmp/codedeploy-deployment-staging-area/
 hooks:
 #  ApplicationStop:
  #   - location: scripts/stop_applicationn
