@@ -6,7 +6,7 @@ spring:
    # console:
     #  enabled: true
      # path: /h2-console
-  ## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+  ### Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
   datasource:
     url: jdbc:mysql://bt-app-db.cowu1fm2skri.eu-west-2.rds.amazonaws.com:3306/iotpcf?useSSL=false
     username: admin
