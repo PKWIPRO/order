@@ -25,12 +25,12 @@ phases:
       
        - echo Build started on `date`
        - echo Building the Docker image...          
-       - docker build -t orderapp:latest .
-       - docker tag orderapp:latest 667811466675.dkr.ecr.eu-west-2.amazonaws.com/order-app:$IMAGE_TAG
+       - docker build -t order-app:latest .
+       - docker tag order-app:latest 667811466675.dkr.ecr.eu-west-2.amazonaws.com/order-app:$IMAGE_TAG
        - echo Build completed on `date`
        - echo Pushing the Docker image...
        - docker push 667811466675.dkr.ecr.eu-west-2.amazonaws.com/order-app:$IMAGE_TAG
-       - printf '[{"name":"travel","imageUri":"%s"}]' 667811466675.dkr.ecr.eu-west-2.amazonaws.com/order-app:$IMAGE_TAG > imagedefinitions.json
+       - printf '[{"name":"order-app","imageUri":"%s"}]' 667811466675.dkr.ecr.eu-west-2.amazonaws.com/order-app:$IMAGE_TAG > imagedefinitions.json
        - cat imagedefinitions.json
       
 
