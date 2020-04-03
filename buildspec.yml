@@ -17,7 +17,7 @@ phases:
       - IMAGE_TAG=${COMMIT_HASH:=latest}
   build:
     commands:
-      - echo Build completed on `date`
+      - echo Build .completed on `date`
       
       - mvn -X package
   post_build:
